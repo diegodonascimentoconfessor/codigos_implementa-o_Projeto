@@ -1,0 +1,24 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/* Estilos para o botão */
+#dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
